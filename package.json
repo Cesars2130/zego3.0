@@ -1,0 +1,39 @@
+{
+  "name": "zegofront",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/material": "^5.16.7",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.5",
+    "@pdf-lib/fontkit": "^1.1.1",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf/renderer": "^3.1.14",
+    "axios": "^1.6.5",
+    "chart.js": "^3.9.1",
+    "formik": "^2.4.6",
+    "jspdf": "^2.5.1",
+    "next": "^14.0.3-canary.4",
+    "pdf-lib": "^1.17.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^4.12.0",
+    "react-pdf": "^7.6.0",
+    "react-router-dom": "^6.22.3",
+    "styled-components": "^6.1.1",
+    "use-client": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1"
+  }
+}

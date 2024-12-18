@@ -1,0 +1,116 @@
+
+/* Cards Servicios */
+.Card1 {
+    background-image: url(../../../public/mision.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .orderStyleL1 {
+    order: 1;
+  }
+  
+  .orderStyleL2 {
+    order: 2;
+  }
+  
+  @media (min-width: 768px) {
+    .orderStyleL1 {
+      order: 2;
+    }
+  
+    .orderStyleL2 {
+      order: 1;
+    }
+  }
+  
+  .contenidoCard {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .contenidoCardNoImg {
+    background-color: #d6d6d6;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contCardNo {
+    text-align: center;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .CardsContainer {
+      margin-bottom: 20px;
+    }
+  }
+  
+  .servicio1 {
+    background-image: url(../../../public/cofepris.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+  }
+  
+  .serviciosFirst {
+    text-align: center;
+  }
+  .servicios2 {
+    color: black;
+  }
+
+  .cardNoti{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.285);
+  }
+  .cardProx{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.285);
+    gap: 60px;
+  }
+
+  .idNoti{
+    margin: 5px;
+
+  }
+
+  .contNoti{
+    margin: 5px;
+  }
+
+  .dateNoti{
+    margin: 5px;
+  }
+
+  .colorNoti{
+    margin: 5px;
+    background-color: rgba(255, 0, 0, 0.567);
+  }
+  /*  */
+  /*  */

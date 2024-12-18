@@ -1,0 +1,139 @@
+/* Banner */
+
+.Hero {
+  background-image: url(../../../public/first.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  position: relative;
+}
+
+.Contenido-Hero {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Contenido-Hero h2 span {
+  color: white;
+  font-size: 2rem;
+}
+
+.Ubicacion p {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+/* Footer */
+
+.footerxD {
+  width: 344.997px;
+  height: 49.423px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 50px;
+}
+.footer2xD {
+  padding-left: 250px;
+}
+.footer3xD {
+  padding-left: 120px;
+}
+.titulo {
+  padding-top: 50px;
+}
+.contxD {
+  font-size: 20px;
+}
+
+.phonexD {
+  width: 20px;
+  height: 20.329px;
+  flex-shrink: 0;
+}
+
+.num {
+  font-size: 20px;
+}
+
+/* REPORTES */
+
+.cardReporte {
+  height: 230px;
+  box-shadow: -5px 6px 32px -3px rgba(0, 0, 0, 0.2);
+  border-color: #65717d;
+}
+
+@media (max-width: 768px) {
+  .cardReporte {
+    height: 130px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cardReporte {
+    height: 80px;
+  }
+}
+
+.download {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-size: cover;
+  height: 40px;
+  width: 50px;
+ cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+    .download{
+      height: 60px;
+      width: 70px;
+    }
+}
+@media (min-width: 768px) {
+  .download{
+    height: 60px;
+    width: 70px;
+  }
+}
+
+.add {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-size: cover;
+  height: 40px;
+  width: 50px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .add{
+    height: 60px;
+    width: 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .add{
+    height: 50px;
+    width: 60px;
+  }
+}
+

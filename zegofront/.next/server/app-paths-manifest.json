@@ -1,0 +1,10 @@
+{
+  "/not-found": "app/not-found.js",
+  "/agregarLicenciaSanitaria/page": "app/agregarLicenciaSanitaria/page.js",
+  "/reportes/page": "app/reportes/page.js",
+  "/clientes/page": "app/clientes/page.js",
+  "/agregarOrdenSencilla/page": "app/agregarOrdenSencilla/page.js",
+  "/agregarOrdenDeServicio/page": "app/agregarOrdenDeServicio/page.js",
+  "/agregarRepNivelPiso/page": "app/agregarRepNivelPiso/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}

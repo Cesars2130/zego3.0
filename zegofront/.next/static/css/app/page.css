@@ -1,0 +1,245 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/Moleculas/moleculas.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+
+/* Cards Servicios */
+.Card1 {
+    background-image: url(/_next/static/media/mision.811a386d.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .orderStyleL1 {
+    order: 1;
+  }
+  
+  .orderStyleL2 {
+    order: 2;
+  }
+  
+  @media (min-width: 768px) {
+    .orderStyleL1 {
+      order: 2;
+    }
+  
+    .orderStyleL2 {
+      order: 1;
+    }
+  }
+  
+  .contenidoCard {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .contenidoCardNoImg {
+    background-color: #d6d6d6;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contCardNo {
+    text-align: center;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .CardsContainer {
+      margin-bottom: 20px;
+    }
+  }
+  
+  .servicio1 {
+    background-image: url("/_next/static/media/WhatsApp Image 2023-11-12 at 10.50.28 PM.36528153.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+  }
+  
+  .serviciosFirst {
+    text-align: center;
+  }
+  .servicios2 {
+    color: black;
+  }
+
+
+  /*  */
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/Orgnanismos/organismos.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+/* Banner */
+
+.Hero {
+  background-image: url(/_next/static/media/first.5addad9a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  position: relative;
+}
+
+.Contenido-Hero {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Contenido-Hero h2 span {
+  color: white;
+  font-size: 2rem;
+}
+
+.Ubicacion p {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+/* Footer */
+
+.footerxD {
+  width: 344.997px;
+  height: 49.423px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 50px;
+}
+.footer2xD {
+  padding-left: 250px;
+}
+.footer3xD {
+  padding-left: 120px;
+}
+.titulo {
+  padding-top: 50px;
+}
+.contxD {
+  font-size: 20px;
+}
+
+.phonexD {
+  width: 20px;
+  height: 20.329px;
+  flex-shrink: 0;
+}
+
+.num {
+  font-size: 20px;
+}
+
+/* REPORTES */
+
+.cardReporte {
+  height: 230px;
+  box-shadow: -5px 6px 32px -3px rgba(0, 0, 0, 0.2);
+  border-color: #65717d;
+}
+
+@media (max-width: 768px) {
+  .cardReporte {
+    height: 180px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cardReporte {
+    height: 75px;
+  }
+}
+
+.download {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-size: cover;
+  height: 40px;
+  width: 50px;
+ cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+    .download{
+      height: 60px;
+      width: 70px;
+    }
+}
+@media (min-width: 768px) {
+  .download{
+    height: 60px;
+    width: 70px;
+  }
+}
+
+.add {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-size: cover;
+  height: 40px;
+  width: 50px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .add{
+    height: 60px;
+    width: 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .add{
+    height: 50px;
+    width: 60px;
+  }
+}
+
+
+.containerCardsReportesFondo {
+  display: flex;
+  width: 80%;
+  margin: 35px;
+  height: 850px;
+  padding: 20px;
+  box-shadow: -5px 6px 32px -3px rgba(0, 0, 0, 0.2);
+  border-color: #65717d;
+  border-radius: 5px;
+  overflow: auto;
+  color: #000;
+}
+
+@media (min-width: 768px) {
+  .containerCardsReportesFondo {
+    width: 90%;
+    height: 560px;
+  }
+}
+

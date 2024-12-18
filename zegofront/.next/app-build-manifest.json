@@ -1,0 +1,63 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/reportes/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/reportes/page.css",
+      "static/chunks/app/reportes/page.js"
+    ],
+    "/editarLicenciaSanitaria/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/editarLicenciaSanitaria/page.css",
+      "static/chunks/app/editarLicenciaSanitaria/page.js"
+    ],
+    "/agregarLicenciaSanitaria/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/agregarLicenciaSanitaria/page.css",
+      "static/chunks/app/agregarLicenciaSanitaria/page.js"
+    ],
+    "/clientes/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/clientes/page.css",
+      "static/chunks/app/clientes/page.js"
+    ],
+    "/agregarOrdenSencilla/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/agregarOrdenSencilla/page.css",
+      "static/chunks/app/agregarOrdenSencilla/page.js"
+    ],
+    "/agregarOrdenDeServicio/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/agregarOrdenDeServicio/page.css",
+      "static/chunks/app/agregarOrdenDeServicio/page.js"
+    ],
+    "/agregarRepNivelPiso/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/agregarRepNivelPiso/page.css",
+      "static/chunks/app/agregarRepNivelPiso/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
+    ]
+  }
+}
